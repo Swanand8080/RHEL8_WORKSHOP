@@ -5,7 +5,6 @@ echo "Enter your email"
 read email
 echo "Enter you college name"
 read college
-fi
 #Task 1
 #checking for /var/tmp/passwd
 check=0
