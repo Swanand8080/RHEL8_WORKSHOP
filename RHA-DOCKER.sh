@@ -1,5 +1,12 @@
-#Task 1
 #!/bin/bash
+echo "Enter your name"
+read name
+echo "Enter your email"
+read email
+echo "Enter you college name"
+read college
+fi
+#Task 1
 #checking for /var/tmp/passwd
 check=0
 if [ -f /var/tmp/passwd ]
@@ -77,7 +84,7 @@ fi
 v6=$(grep "WELCOME TO RHEL8 WORKSHOP" /etc/motd)
 if [ $? == 0 ]
 then
-echo -e "\e[1;32m-------Task7 did not completed successfully-------\e[0m"
+echo -e "\e[1;32m-------Task7 completed successfully-------\e[0m"
 else
 echo -e "\e[1;31m-------Task7 did not completed successfully-------\e[0m"
 fi
