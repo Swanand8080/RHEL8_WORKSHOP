@@ -6,7 +6,7 @@ read email
 echo "Enter you college name"
 read college
 mkdir /rhel8_data
-apk add nfs-utils 
+yum nfs-utils -y 
 mount 3.224.211.85:/nfsdata /rhel8_data
 mkdir /rhel8_data/$email
 ls /rhel8_data
